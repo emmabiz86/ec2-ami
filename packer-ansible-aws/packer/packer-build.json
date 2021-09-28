@@ -48,6 +48,6 @@
         },
         {
             "type": "ansible",
-            "playbook_file": "/home/ec2-user/jdk/bin/java/jdk/bin/java/workspace/replica/packer-ansible-aws/packer/provisioners/ansible/ansible/deploy_app.yml"
+            "playbook_file": "/home/ec2-user/jdk/bin/java/jdk/bin/java/workspace/replica/packer-ansible-aws/packer/provisioners/ansible/deploy_app.yml"
         }]
 }
