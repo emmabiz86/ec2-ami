@@ -6,7 +6,7 @@
   tasks:
     - name: Deploy war file to tomcat
       copy:
-        src: files/sample.war
+        src: /home/ec2-user/jdk/bin/java/jdk/bin/java/workspace/replica/sample.war
         dest: /usr/share/tomcat/webapps/sample.war
         owner: tomcat
         mode: 0644
