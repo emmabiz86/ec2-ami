@@ -24,7 +24,7 @@
         "source_ami_filter": "ami-0ac6967966621d983" ,
             "owners": ["860186523486"],
             "most_recent": true
-        },
+        
         "run_tags": {
             "Name": "packer-build-image"
         }
