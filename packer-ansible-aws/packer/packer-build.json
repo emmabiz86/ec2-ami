@@ -21,12 +21,7 @@
         "vpc_id": "{{ `vpc_id` }}", 
         "subnet_id": "{{user `subnet_id`}}",
         "ami_name": "{{user `ami_name`}}",
-        "source_ami_filter": {
-            "filters": {
-                "virtualization-type": "hvm",
-                "name": "CentOS Linux 8 *",
-                "root-device-type": "ebs"
-            },
+        "source_ami_filter": "ami-0ac6967966621d983" ,
             "owners": ["860186523486"],
             "most_recent": true
         },
