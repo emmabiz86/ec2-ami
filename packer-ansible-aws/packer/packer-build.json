@@ -27,7 +27,7 @@
                 "name": "CentOS Linux 8 x86_64 HVM EBS *",
                 "root-device-type": "ebs"
             },
-            "owners": ["679593333241"],
+            "owners": ["860186523486"],
             "most_recent": true
         },
         "run_tags": {
