@@ -23,7 +23,7 @@
         "ami_name": "{{user `ami_name`}}",
         "source_ami_filter": {
             "filters": {
-                "product-code": "47k9ia2igxpcce2bzo8u3kj03",
+                "product-code": "cvugziknvmxgqna9noibqnnsy",
                     "state": "available"
             },
             "owners": ["860186523486"],
