@@ -5,8 +5,8 @@
         "ami_name": "Legacy-os",
         "aws_region": "us-east-2",
         "ssh_username": "centos",
-        "vpc_id": "",
-        "subnet_id": ""
+        "vpc_id": "vpc-7a25ed11",
+        "subnet_id": "subnet-d99a0b95"
     },
     "builders": [{
         "type": "amazon-ebs",
