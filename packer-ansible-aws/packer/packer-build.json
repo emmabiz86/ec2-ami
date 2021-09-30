@@ -18,7 +18,7 @@
         "ssh_username": "{{user `ssh_username`}}",
         "communicator": "ssh",
         "associate_public_ip_address": true,
-        "vpc_id": "{{ `vpc_id` }}", 
+        "vpc_id": "vpc-00b0b4ea0e3245d4d", 
         "subnet_id": "{{user `subnet_id`}}",
         "ami_name": "{{user `ami_name`}}",
         "source_ami_filter": {
