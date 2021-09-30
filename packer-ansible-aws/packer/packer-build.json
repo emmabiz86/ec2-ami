@@ -25,7 +25,7 @@
             "filters": {
                 "virtualization-type": "hvm",
                 "owner-alias": "aws-marketplace",
-                "product-code": "47k9ia2igxpcce2bzo8u3kj03",
+                "product-code": "aw0evgkw8e5c1q413zgy5pjce",
                 "root-device-type": "ebs"
             },
             "owners": ["860186523486"],
