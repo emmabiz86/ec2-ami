@@ -21,10 +21,15 @@
         "vpc_id": "{{ `vpc_id` }}", 
         "subnet_id": "{{user `subnet_id`}}",
         "ami_name": "{{user `ami_name`}}",
-        "source_ami_filter": "ami-01d5ac8f5f8804300",
+        "source_ami_filter": {
+            "filters": {
+                "virtualization-type": "hvm",
+                "name": "CentOS Linux 7 x86_64 HVM EBS *",
+                "root-device-type": "ebs"
+            },
             "owners": ["860186523486"],
-            "most_recent": true,
-      
+            "most_recent": true
+        },
         "run_tags": {
             "Name": "packer-build-image"
         }
