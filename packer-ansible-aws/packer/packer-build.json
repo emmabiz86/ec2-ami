@@ -21,6 +21,7 @@
         "vpc_id": "{{ `vpc_id` }}", 
         "subnet_id": "{{user `subnet_id`}}",
         "ami_name": "{{user `ami_name`}}",
+        "SourceAMI": "ami-01d5ac8f5f8804300"
         "source_ami_filter": {
             "filters": {
                 "virtualization-type": "hvm",
