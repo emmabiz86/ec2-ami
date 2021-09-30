@@ -24,6 +24,8 @@
         "source_ami_filter": {
             "filters": {
                 "virtualization-type": "hvm",
+                "owner-alias": "aws-marketplace",
+                "product-code": "47k9ia2igxpcce2bzo8u3kj03",
                 "name": "CentOS Linux 8 x86_64 HVM EBS *",
                 "root-device-type": "ebs"
             },
