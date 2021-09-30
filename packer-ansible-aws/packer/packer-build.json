@@ -23,9 +23,8 @@
         "ami_name": "{{user `ami_name`}}",
         "source_ami_filter": {
             "filters": {
-                "virtualization-type": "hvm",
-                "name": "CentOS Linux 8 x86_64 HVM EBS ENA *",
-                "root-device-type": "ebs"
+                "product-code": "47k9ia2igxpcce2bzo8u3kj03",
+                    "state": "available"
             },
             "owners": ["860186523486"],
             "most_recent": true
