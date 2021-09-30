@@ -23,8 +23,8 @@
         "ami_name": "{{user `ami_name`}}",
         "source_ami_filter": "ami-01d5ac8f5f8804300",
             "owners": ["860186523486"],
-            "most_recent": true
-        },
+            "most_recent": true,
+      
         "run_tags": {
             "Name": "packer-build-image"
         }
