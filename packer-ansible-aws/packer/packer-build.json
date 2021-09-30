@@ -23,7 +23,7 @@
         "ami_name": "{{user `ami_name`}}",
         "source_ami_filter": {
             "filters": {
-                "virtualization-type": "pv",
+                "virtualization-type": "hvm",
                 "name": "CentOS Linux 7 x86_64 HVM EBS *",
                 "root-device-type": "ebs"
             },
