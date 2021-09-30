@@ -24,7 +24,7 @@
         "source_ami_filter": {
             "filters": {
                 "virtualization-type": "hvm",
-                "name": "CentOS Linux 8 x86_64 HVM EBS *",
+                "name": "CentOS-8-ec2-8.2.2004-20200923-1.x86_64-471d022d-974f-4f9c-8e39-b00d9b583833-ami-03b6a1d995f5a5146.4",
                 "root-device-type": "ebs"
             },
             "owners": ["860186523486"],
